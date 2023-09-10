@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linus Jung - Cybersecurity enthusiast</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="favicon.png" rel="shortcut icon" type="image/png" />
+
+    <!-- CDNs -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Standard SEO -->
+    <meta
+      name="description"
+      content="I am a cybersecurity enthusiast with a passion for coding. Check out my latest projects and what I’m up to right now."
+    />
+    <meta name="keywords" content="Linus Jung, Leimen" />
+    <link rel="canonical" href="https://linusjung.dev" />
+  </head>
+
+  <body id="top">
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="header__title">Linus Jung</h1>
+        <p class="header__intro">
+          Cybersecurity enthusiast with a passion for coding
+        </p>
+        <p class="header__intro">
+          I am an aspiring cybersecurity analyst blablabla. Check out my latest
+          <a href="#projects">projects</a> and what I’m up to right
+          <a href="#now">now</a>.
+        </p>
+        <div class="header__details">
+          <div class="header__details-location">
+            <i class="ph ph-map-pin"></i>
+            Leimen, DE
+          </div>
+          <div class="header__details-availability">
+            <span class="avail"></span>
+            <span id="availtime">Available for new opportunities</span>
+          </div>
+          <div class="header__toggle" id="theme-toggle"></div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="section projects" id="projects">
+          <div class="section__title">
+            <h3>Projects</h3>
+          </div>
+          <div class="section__container" id="projects-container">
+            <a href="https://google.com" class="card project" target="_blank">
+              <div class="project__header">
+                <h4 class="project__header-title">Title</h4>
+                <span class="badge">Year</span>
+              </div>
+              <div class="project__details">Details</div>
+            </a>
+            <a href="https://google.com" class="card project" target="_blank">
+              <div class="project__header">
+                <h4 class="project__header-title">Title</h4>
+                <span class="badge">Year</span>
+              </div>
+              <div class="project__details">Details</div>
+            </a>
+          </div>
+          <div class="section__footer">
+            <a href="#top">
+              <i class="ph ph-caret-up"></i>
+            </a>
+          </div>
+        </section>
+        <section class="section now" id="now">
+          <div class="section__title">
+            <h3>Now</h3>
+          </div>
+          <div class="section__container">
+            <p class="update">Last updated: August 5th, 2023</p>
+            <p>What I'm working on:</p>
+            <ul>
+              <li>
+                Building Framer templates for my 88 Pixels studio (don't check
+                the latest releases)
+              </li>
+              <li>
+                Curating and developing something - a gallery of Framer
+                templates built by the community
+              </li>
+              <li>
+                Freelancing for various clients (get in
+                <a href="#contact">touch</a>)
+              </li>
+              <li>Learning stuff</li>
+              <li>Early planning for a minimal app.</li>
+            </ul>
+          </div>
+          <div class="section__footer">
+            <a href="#top">
+              <i class="ph ph-caret-up"></i>
+            </a>
+          </div>
+        </section>
+        <section class="section contact" id="contact">
+          <div class="section__title">
+            <h3>Contact</h3>
+          </div>
+          <div class="section__container">
+            <article class="card contact">
+              <p class="contact__platform">Email</p>
+              <div class="contact__divider"></div>
+              <div class="contact__link">
+                <a
+                  href="mailto:contact@linusjung.dev"
+                  class="contact__link-url"
+                  target="_blank"
+                  >contact@linusjung.dev</a
+                >
+                <div class="contact__link-icon">
+                  <i class="ph ph-caret-right"></i>
+                </div>
+              </div>
+            </article>
+            <article class="card contact">
+              <p class="contact__platform">LinkedIn</p>
+              <div class="contact__divider"></div>
+              <div class="contact__link">
+                <nobr
+                  ><a
+                    href="https://www.linkedin.com/in/linus-jung/"
+                    class="contact__link-url"
+                    target="_blank"
+                    >@linus-jung</a
+                  ></nobr
+                >
+                <div class="contact__link-icon">
+                  <i class="ph ph-caret-right"></i>
+                </div>
+              </div>
+            </article>
+            <article class="card contact">
+              <p class="contact__platform">GitHub</p>
+              <div class="contact__divider"></div>
+              <div class="contact__link">
+                <a
+                  href="https://github.com/lynusdev"
+                  class="contact__link-url"
+                  target="_blank"
+                  >@lynusdev</a
+                >
+                <div class="contact__link-icon">
+                  <i class="ph ph-caret-right"></i>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="section__footer">
+            <a href="#top">
+              <i class="ph ph-caret-up"></i>
+            </a>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__copyright">
+          &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          - Linus Jung
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
