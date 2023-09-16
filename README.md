@@ -1,3 +1,3 @@
 # linusjung.dev
 
-My personal website.
+My personal website. Check it out at [linusjung.dev](https://linusjung.dev)
